@@ -1,0 +1,36 @@
+Configuration that we can obtain with respect of rules 
+Graph of all configuration
+rules : end up with one square 
+If one square jumped the other, it will disappear
+if there is multiples squares with same color, aligned and another square can jump them all of them disappear
+Object:
+Solution wither optimize complexite or memory or both 
+problem de planification, if donner le plan d'execution
+
+Contraints: we can can just take an action without jumping another token so we going to stop 
+Also 
+Description et formalisation du problem et l'algo 
+
+also definition formelle dun problem,
+
+initial state with solution goal et recall 
+
+
+Définition formelle d'un problème de recherche
+
+Un problème de recherche dans un espace d'états se définit par les composants suivants :
+État initial (Initial state) : L'état de départ de l'environnement.
+Actions : L'ensemble des mouvements ou opérations valides à partir d'un état donné.
+Modele transaction: La description de ce que fait chaque action (l'état résultant de l'application d'une action).
+Test d'objectif : Une condition qui détermine si un état donné est une solution finale.
+
+Now on for the jump game
+States: The initial board has some configuration of colored square tokens with at least one empty space.
+Initial state : the configuration of start of the board with multiple tokens coloured with at least one empty case 
+Rules:
+1.  end up with one square 
+2. If one square jumped the other, it will disappear
+if there is multiples squares with same color, aligned and another square can jump them all of them disappear
+Goals:
+• Start with a board of size n x m with at least one empty place and end up with one colored token in our board using an algorithm  Backtracking
+
